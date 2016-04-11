@@ -1,0 +1,55 @@
+%!
+/cm { 28.3464567 mul } def
+/repere {
+    /Arial findfont
+    .5 cm scalefont
+    setfont
+    newpath
+    0 5 cm moveto
+    9.42 cm 5 cm lineto
+    (x) show
+    3.14 cm 0 moveto
+    3.14 cm 10 cm lineto
+    (y) show
+    stroke
+} def
+
+3.14 cm 5 cm translate
+repere
+3.14 cm 5 cm translate
+newpath
+-3.14 cm -0.00159265291649 cm moveto
+-2.826 cm -0.310379909672 cm moveto
+-3.14 cm -0.00159265291649 cm moveto
+-2.826 cm -0.310379909672 cm lineto
+-2.512 cm -0.588815561968 cm lineto
+-2.198 cm -0.809671788277 cm lineto
+-1.884 cm -0.951351376234 cm lineto
+-1.57 cm -0.999999682932 cm lineto
+-1.256 cm -0.950859460506 cm lineto
+-0.942 cm -0.808736060553 cm lineto
+-0.628 cm -0.587527525714 cm lineto
+-0.314 cm -0.308865520099 cm lineto
+0.0 cm 0.0 cm lineto
+0.314 cm 0.308865520099 cm lineto
+0.628 cm 0.587527525714 cm lineto
+0.942 cm 0.808736060553 cm lineto
+1.256 cm 0.950859460506 cm lineto
+1.57 cm 0.999999682932 cm lineto
+1.884 cm 0.951351376234 cm lineto
+2.198 cm 0.809671788277 cm lineto
+2.512 cm 0.588815561968 cm lineto
+2.826 cm 0.310379909672 cm lineto
+3.14 cm 0.00159265291649 cm lineto
+3.454 cm -0.307350347075 cm lineto
+3.768 cm -0.58623799917 cm lineto
+4.082 cm -0.807798281434 cm lineto
+4.396 cm -0.950365132881 cm lineto
+4.71 cm -0.999997146388 cm lineto
+5.024 cm -0.951840878816 cm lineto
+5.338 cm -0.810605462232 cm lineto
+5.652 cm -0.590102104665 cm lineto
+5.966 cm -0.311893511953 cm lineto
+6.28 cm -0.00318530179314 cm lineto
+stroke
+showpage
